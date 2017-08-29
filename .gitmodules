@@ -1,0 +1,4 @@
+[submodule "upload/src/addons/addOnInstaller/_files/src/vender/Git.php"]
+	path = upload/src/addons/addOnInstaller/_files/src/vender/Git.php
+	url = https://github.com/Xon/Git.php.git
+	branch = master
