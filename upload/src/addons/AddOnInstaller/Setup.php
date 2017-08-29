@@ -1,6 +1,6 @@
 <?php
 
-namespace SV\addOnInstaller;
+namespace AddOnInstaller;
 
 use XF\AddOn\AbstractSetup;
 use XF\AddOn\StepRunnerInstallTrait;
