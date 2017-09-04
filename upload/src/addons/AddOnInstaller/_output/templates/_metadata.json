@@ -1,0 +1,12 @@
+{
+    "admin/option_deployment_select.html": {
+        "version_id": 2000000,
+        "version_string": "2.0.0",
+        "hash": "b63bbd67150360c30ed2a15ecd2d2139"
+    },
+    "admin/option_template_deploymentmethod_ftp.html": {
+        "version_id": 2000000,
+        "version_string": "2.0.0",
+        "hash": "6308265a2a1dd1dc4a839c361bf11a76"
+    }
+}

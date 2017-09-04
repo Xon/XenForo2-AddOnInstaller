@@ -1,0 +1,1 @@
+If set, the install link from updater automatically confirms installing

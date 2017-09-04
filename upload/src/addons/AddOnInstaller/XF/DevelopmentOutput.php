@@ -14,7 +14,7 @@ class DevelopmentOutput extends XFCP_DevelopmentOutput
     {
         $ret = parent::export($entity);
 
-        if (isset($entity->addon_id))
+        if (isset($entity->addon_id) && \XF::options()->addon_auto_export_data && $entity->addon_id !== 'XenForo')
         {
             $shortName = $entity->structure()->shortName;
             $this->addonIds[$shortName][$entity->addon_id] = true;
@@ -32,9 +32,9 @@ class DevelopmentOutput extends XFCP_DevelopmentOutput
 
     public function delete(Entity $entity, $new = true)
     {
-        $ret = parent::export($entity, $new);
+        $ret = parent::delete($entity, $new);
 
-        if (isset($entity->addon_id))
+        if (isset($entity->addon_id) && \XF::options()->addon_auto_export_data && $entity->addon_id !== 'XenForo')
         {
             $shortName = $entity->structure()->shortName;
             $this->addonIds[$shortName][$entity->addon_id] = true;
@@ -87,7 +87,7 @@ class DevelopmentOutput extends XFCP_DevelopmentOutput
 
     protected function _writeDataFile($addOnId, $containerName, \DOMNode $container)
     {
-        $addOn = \XF::em()->find('XF:Addon', $addOnId);
+        $addOn = \XF::em()->find('XF:AddOn', $addOnId);
         if (!$addOn)
         {
             return;

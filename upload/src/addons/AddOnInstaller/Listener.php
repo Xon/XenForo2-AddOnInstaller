@@ -17,6 +17,23 @@ class Listener
     public static function appSetup(\XF\Admin\App $app) 
     {
         $loader = \XF::$autoLoader;
-        $loader->addClassMap(array('Git' => 'src/addons/AddOnInstaller/vender/Git.php'));
+        $loader->addClassMap(array('Git' => 'src/addons/Installer/vender/Git.php'));
+    }
+
+    public static function addon_deployment(&$deployMethods)
+    {
+        $builtIns = explode(',', \XF::options()->builtin_deploymentmethods);
+        foreach($builtIns as $deployMethod)
+        {
+            $deployMethod = trim($deployMethod);
+            if ($deployMethod == 'ftp' && !extension_loaded('ftp'))
+            {
+                continue;
+            }
+            if ($deployMethod)
+            {
+                $deployMethods[$deployMethod] = 'AddOnInstaller/Deployment/' . $deployMethod;
+            }
+        }
     }
 }

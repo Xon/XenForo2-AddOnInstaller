@@ -1,0 +1,19 @@
+<xf:formrow rowtype="input"
+	label="{$option.title}"
+	hint="{$hintHtml}"
+	explain="{$explainHtml}"
+	html="{$listedHtml}">
+
+	<div class="inputGroup inputGroup--text">
+		<xf:textbox name="{$inputName}[host]" value="{$option.option_value.host}" placeholder="{{phrase('host')}}" size="40" />
+		:
+		<xf:textbox name="{$inputName}[port]" value="{$option.option_value.port}" placeholder="{{phrase('port')}}" size="5" />
+		<xf:textbox name="{$inputName}[timeout]" value="{$option.option_value.timeout}" placeholder="{{phrase('ftp_connection_timeout')}}" size="5" />
+	</div>
+	<xf:checkbox>
+		<xf:option name="{$inputName}[passive]" value="1" selected="{$option.option_value.passive}" label="{{phrase('ftp_passive_mode')}}" />
+	</xf:checkbox>
+	<xf:textbox autocomplete="off" name="{$inputName}[username]" value="{$option.option_value.username}" placeholder="{{phrase('user_name')}}" inputclass="Elastic" />
+	<br/>
+	<xf:textbox type="password" autocomplete="off" name="{$inputName}[password]" value="{$option.option_value.password}" placeholder="{{phrase('password')}}" inputclass="Elastic" />
+</xf:formrow>

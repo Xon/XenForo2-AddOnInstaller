@@ -1,0 +1,9 @@
+A comma delimited list of built-in deployment methods. Supported:
+<ol>
+<li>copy</i>
+<li>fakeCopy</i>
+<li>ftp</i>
+</ol>
+<br/>
+Note; if no deployment methods are enabled, then the 'copy' deployment will be enabled.<br/>
+'fakeCopy' is for testing deployment without copying files.

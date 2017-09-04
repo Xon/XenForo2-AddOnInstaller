@@ -1,0 +1,9 @@
+{
+    "event_id": "addon_deployment",
+    "execute_order": 10,
+    "callback_class": "AddOnInstaller\\Listener",
+    "callback_method": "addon_deployment",
+    "active": true,
+    "hint": "",
+    "description": "Adds built-in deployment methods"
+}

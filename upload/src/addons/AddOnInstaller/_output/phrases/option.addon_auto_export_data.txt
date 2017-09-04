@@ -1,0 +1,1 @@
+Export an add-on's _data folder on changes

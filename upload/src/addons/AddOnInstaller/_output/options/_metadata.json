@@ -1,0 +1,29 @@
+{
+    "addon_auto_export_data.json": {
+        "hash": "53300305b11ae4a4f2a2103526f0eea0"
+    },
+    "addoninstaller_check_update.json": {
+        "hash": "84fdd4c59caad5b021488c8f58249dec"
+    },
+    "addoninstaller_exact_check.json": {
+        "hash": "b7927d8b9c9f2fb3c8042ce52b33775a"
+    },
+    "addoninstaller_update_confirmsbatch.json": {
+        "hash": "7213f107fe2951811a7845f62780078e"
+    },
+    "builtin_deploymentmethods.json": {
+        "hash": "4dd4b091403528b15531d474fac50ed6"
+    },
+    "deploymentmethod.json": {
+        "hash": "b24c9208043b18602f17b280b14c3a5e"
+    },
+    "deploymentmethod_ftp.json": {
+        "hash": "c4a0c9e221832de56ee7047b43e767f1"
+    },
+    "xenforoRmLoginPassword.json": {
+        "hash": "0293e326aeb4bf2ca0ce8e6a1bb74dd1"
+    },
+    "xenforoRmLoginUsername.json": {
+        "hash": "896581ba336a3d14fe3b6f0cc37cc3fb"
+    }
+}

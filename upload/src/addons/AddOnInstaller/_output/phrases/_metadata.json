@@ -1,0 +1,164 @@
+{
+    "deployment_method_copy.txt": {
+        "global_cache": false,
+        "version_id": 2000000,
+        "version_string": "2.0.0",
+        "hash": "825f863b23014c7a1ff406cd026016dc"
+    },
+    "deployment_method_fakeCopy.txt": {
+        "global_cache": false,
+        "version_id": 2000000,
+        "version_string": "2.0.0",
+        "hash": "a303162697f576534936eefc4c15758e"
+    },
+    "deployment_method_ftp.txt": {
+        "global_cache": false,
+        "version_id": 2000000,
+        "version_string": "2.0.0",
+        "hash": "c728a49363c9a93a43a7e7f232b5a54a"
+    },
+    "ftp_connection_timeout.txt": {
+        "global_cache": false,
+        "version_id": 2000000,
+        "version_string": "2.0.0",
+        "hash": "c85a251cc457840f1e032f1b733e9398"
+    },
+    "ftp_passive_mode.txt": {
+        "global_cache": false,
+        "version_id": 2000000,
+        "version_string": "2.0.0",
+        "hash": "9bc1d50417aa86cc813f091f64c3d933"
+    },
+    "option.addon_auto_export_data.txt": {
+        "global_cache": false,
+        "version_id": 2000000,
+        "version_string": "2.0.0",
+        "hash": "9de911d489c39d705b4dea69690ecbd5"
+    },
+    "option.addoninstaller_check_update.txt": {
+        "global_cache": false,
+        "version_id": 2000000,
+        "version_string": "2.0.0",
+        "hash": "e7a903a8b3c2b8747e67c9492e090691"
+    },
+    "option.addoninstaller_exact_check.txt": {
+        "global_cache": false,
+        "version_id": 2000000,
+        "version_string": "2.0.0",
+        "hash": "e875ba65356d0b24fd2d9fa722ea982e"
+    },
+    "option.addoninstaller_update_confirmsbatch.txt": {
+        "global_cache": false,
+        "version_id": 2000000,
+        "version_string": "2.0.0",
+        "hash": "d73e8287f9c3a43bfcb5eaa2f6ddad7c"
+    },
+    "option.builtin_deploymentmethods.txt": {
+        "global_cache": false,
+        "version_id": 2000000,
+        "version_string": "2.0.0",
+        "hash": "0d1e40fac0e7f8752efc7345969ab4c2"
+    },
+    "option.deploymentmethod.txt": {
+        "global_cache": false,
+        "version_id": 2000000,
+        "version_string": "2.0.0",
+        "hash": "ea355214fd4bc7c57f471bd92918879b"
+    },
+    "option.deploymentmethod_ftp.txt": {
+        "global_cache": false,
+        "version_id": 2000000,
+        "version_string": "2.0.0",
+        "hash": "76a88da1a6e7a0ac55676ede8931d94b"
+    },
+    "option.xenforoRmLoginPassword.txt": {
+        "global_cache": false,
+        "version_id": 2000000,
+        "version_string": "2.0.0",
+        "hash": "d714d6a69a0e7708414627d8b8796c4a"
+    },
+    "option.xenforoRmLoginUsername.txt": {
+        "global_cache": false,
+        "version_id": 2000000,
+        "version_string": "2.0.0",
+        "hash": "18f1fa58cfa30db126d3f6e263597cf0"
+    },
+    "option_explain.addon_auto_export_data.txt": {
+        "global_cache": false,
+        "version_id": 2000000,
+        "version_string": "2.0.0",
+        "hash": "b7b145e52adda80ec9cb2981fa6dfcd8"
+    },
+    "option_explain.addoninstaller_check_update.txt": {
+        "global_cache": false,
+        "version_id": 2000000,
+        "version_string": "2.0.0",
+        "hash": "3630f6fc2ccd2909c7ce092c7491e45a"
+    },
+    "option_explain.addoninstaller_exact_check.txt": {
+        "global_cache": false,
+        "version_id": 2000000,
+        "version_string": "2.0.0",
+        "hash": "2bcfed59ccdeaf0e63fb5463291bd81f"
+    },
+    "option_explain.addoninstaller_update_confirmsbatch.txt": {
+        "global_cache": false,
+        "version_id": 2000000,
+        "version_string": "2.0.0",
+        "hash": "5465bb7e10e69371401f3ced03156b03"
+    },
+    "option_explain.builtin_deploymentmethods.txt": {
+        "global_cache": false,
+        "version_id": 2000000,
+        "version_string": "2.0.0",
+        "hash": "65157e6fe69b1fe1cb6706553cf74c40"
+    },
+    "option_explain.deploymentmethod.txt": {
+        "global_cache": false,
+        "version_id": 2000000,
+        "version_string": "2.0.0",
+        "hash": "c429134573c9e5b8310d2e27d845b841"
+    },
+    "option_explain.deploymentmethod_ftp.txt": {
+        "global_cache": false,
+        "version_id": 2000000,
+        "version_string": "2.0.0",
+        "hash": "d41d8cd98f00b204e9800998ecf8427e"
+    },
+    "option_explain.xenforoRmLoginPassword.txt": {
+        "global_cache": false,
+        "version_id": 2000000,
+        "version_string": "2.0.0",
+        "hash": "9941d3ba14c935e63e04bc3a505a15fd"
+    },
+    "option_explain.xenforoRmLoginUsername.txt": {
+        "global_cache": false,
+        "version_id": 2000000,
+        "version_string": "2.0.0",
+        "hash": "d41d8cd98f00b204e9800998ecf8427e"
+    },
+    "option_group.addOnInstaller.txt": {
+        "global_cache": false,
+        "version_id": 2000000,
+        "version_string": "2.0.0",
+        "hash": "ff71730ea6ff2ca4da1976452da1ae51"
+    },
+    "option_group.addOnInstaller_debug.txt": {
+        "global_cache": false,
+        "version_id": 2000000,
+        "version_string": "2.0.0",
+        "hash": "6dc793d8f2c3eed58310a7a08073288d"
+    },
+    "option_group_description.addOnInstaller.txt": {
+        "global_cache": false,
+        "version_id": 2000000,
+        "version_string": "2.0.0",
+        "hash": "d41d8cd98f00b204e9800998ecf8427e"
+    },
+    "option_group_description.addOnInstaller_debug.txt": {
+        "global_cache": false,
+        "version_id": 2000000,
+        "version_string": "2.0.0",
+        "hash": "d41d8cd98f00b204e9800998ecf8427e"
+    }
+}

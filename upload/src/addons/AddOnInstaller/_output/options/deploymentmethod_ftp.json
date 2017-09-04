@@ -1,0 +1,19 @@
+{
+    "edit_format": "template",
+    "edit_format_params": "option_template_deploymentmethod_ftp",
+    "data_type": "array",
+    "sub_options": [
+        "host",
+        "port",
+        "username",
+        "password",
+        "passive",
+        "timeout"
+    ],
+    "validation_class": "",
+    "validation_method": "",
+    "default_value": "{\"host\":\"\",\"port\":\"\",\"username\":\"\",\"password\":\"\",\"passive\":\"\",\"timeout\":\"\"}",
+    "relations": {
+        "addOnInstaller": 800
+    }
+}
