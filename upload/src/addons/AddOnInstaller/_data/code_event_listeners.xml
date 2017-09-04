@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<code_event_listeners>
-  <listener event_id="app_admin_setup" execute_order="10" callback_class="AddOnInstaller\Listener" callback_method="appSetup" active="1"/>
-</code_event_listeners>
