@@ -29,11 +29,23 @@
         "version_string": "2.0.0",
         "hash": "9bc1d50417aa86cc813f091f64c3d933"
     },
-    "option.addon_auto_export_data.txt": {
+    "option.addonInstaller_auto_export_data.txt": {
         "global_cache": false,
         "version_id": 2000000,
         "version_string": "2.0.0",
         "hash": "9de911d489c39d705b4dea69690ecbd5"
+    },
+    "option.addonInstaller_auto_import_output.txt": {
+        "global_cache": false,
+        "version_id": 2000000,
+        "version_string": "2.0.0",
+        "hash": "33dba78b274754cf4b271ebcfd8d69be"
+    },
+    "option.addonInstaller_cache_css.txt": {
+        "global_cache": false,
+        "version_id": 2000000,
+        "version_string": "2.0.0",
+        "hash": "2a31c0c8293b4b0070fc86070b14e2dc"
     },
     "option.addoninstaller_check_update.txt": {
         "global_cache": false,
@@ -83,11 +95,23 @@
         "version_string": "2.0.0",
         "hash": "18f1fa58cfa30db126d3f6e263597cf0"
     },
-    "option_explain.addon_auto_export_data.txt": {
+    "option_explain.addonInstaller_auto_export_data.txt": {
         "global_cache": false,
         "version_id": 2000000,
         "version_string": "2.0.0",
         "hash": "b7b145e52adda80ec9cb2981fa6dfcd8"
+    },
+    "option_explain.addonInstaller_auto_import_output.txt": {
+        "global_cache": false,
+        "version_id": 2000000,
+        "version_string": "2.0.0",
+        "hash": "e39821968e3e40758bb5a36d951e175f"
+    },
+    "option_explain.addonInstaller_cache_css.txt": {
+        "global_cache": false,
+        "version_id": 2000000,
+        "version_string": "2.0.0",
+        "hash": "332b988c5a836e26281e5955e877f8d5"
     },
     "option_explain.addoninstaller_check_update.txt": {
         "global_cache": false,

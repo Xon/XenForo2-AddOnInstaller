@@ -1,6 +1,12 @@
 {
-    "addon_auto_export_data.json": {
+    "addonInstaller_auto_export_data.json": {
         "hash": "53300305b11ae4a4f2a2103526f0eea0"
+    },
+    "addonInstaller_auto_import_output.json": {
+        "hash": "3d8ec30fccc2989d7ad884868f04cfdc"
+    },
+    "addonInstaller_cache_css.json": {
+        "hash": "6c47bf3ff1bbdaba9abf39964153b086"
     },
     "addoninstaller_check_update.json": {
         "hash": "84fdd4c59caad5b021488c8f58249dec"

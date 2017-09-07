@@ -1,0 +1,1 @@
+In Development mode, css caching is disabled which can cause very long css generation times.
