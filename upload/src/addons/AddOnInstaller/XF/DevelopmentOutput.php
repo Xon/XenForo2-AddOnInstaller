@@ -14,7 +14,7 @@ class DevelopmentOutput extends XFCP_DevelopmentOutput
     {
         $ret = parent::export($entity);
 
-        if (isset($entity->addon_id) && \XF::options()->addonInstaller_auto_export_data && $entity->addon_id !== 'XenForo')
+        if (isset($entity->addon_id) && \XF::options()->addonInstaller_auto_export_data && $entity->addon_id !== 'XF')
         {
             $shortName = $entity->structure()->shortName;
             $this->addonIds[$shortName][$entity->addon_id] = true;
@@ -34,7 +34,7 @@ class DevelopmentOutput extends XFCP_DevelopmentOutput
     {
         $ret = parent::delete($entity, $new);
 
-        if (isset($entity->addon_id) && \XF::options()->addonInstaller_auto_export_data && $entity->addon_id !== 'XenForo')
+        if (isset($entity->addon_id) && \XF::options()->addonInstaller_auto_export_data && $entity->addon_id !== 'XF')
         {
             $shortName = $entity->structure()->shortName;
             $this->addonIds[$shortName][$entity->addon_id] = true;
