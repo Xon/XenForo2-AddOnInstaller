@@ -1,0 +1,6 @@
+{
+    "from_class": "XF\\FsMounts",
+    "to_class": "AddOnInstaller\\XF\\FsMounts",
+    "execute_order": 10,
+    "active": true
+}
