@@ -10,5 +10,8 @@
     },
     "XF-DevelopmentOutput_AddOnInstaller-XF-DevelopmentOutput.json": {
         "hash": "4cacea632871ee3c0341e7a4020c83c0"
+    },
+    "XF-FsMounts_AddOnInstaller-XF-FsMounts.json": {
+        "hash": "c00e26274785b5ca20940c02450b9042"
     }
 }

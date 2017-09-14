@@ -12,4 +12,5 @@ namespace AddOnInstaller\XF
 {
 	class XFCP_CssRenderer extends \XF\CssRenderer {}
 	class XFCP_DevelopmentOutput extends \XF\DevelopmentOutput {}
+	class XFCP_FsMounts extends \XF\FsMounts {}
 }
