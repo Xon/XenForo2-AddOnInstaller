@@ -1,0 +1,5 @@
+{
+    "content_type": "add_on_batch",
+    "field_name": "attachment_handler_class",
+    "field_value": "AddOnInstaller\\Attachment\\AddOnBatch"
+}

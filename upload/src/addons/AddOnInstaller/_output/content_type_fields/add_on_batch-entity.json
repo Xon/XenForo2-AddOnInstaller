@@ -1,0 +1,5 @@
+{
+    "content_type": "add_on_batch",
+    "field_name": "entity",
+    "field_value": "AddOnInstaller:InstallBatch"
+}
