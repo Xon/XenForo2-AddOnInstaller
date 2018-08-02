@@ -17,7 +17,7 @@ class Listener
     public static function appSetup(\XF\Admin\App $app)
     {
         $loader = \XF::$autoLoader;
-        $loader->addClassMap(array('Git' => 'src/addons/Installer/vender/Git.php'));
+        $loader->addClassMap(array('Git' => 'src/addons/AddOnInstaller/vender/Git.php'));
     }
 
     public static function addon_deployment(&$deployMethods)
