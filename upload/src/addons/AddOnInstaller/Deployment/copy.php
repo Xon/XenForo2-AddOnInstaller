@@ -12,6 +12,6 @@ class copy extends AbstractDeployment
     protected function _stop()
     {
         \XF::app()->fs()->flushCache();
-        $this->installerRepository()->InvalidateOpCache();
+        \XF\Util\Php::resetOpcache();
     }
 }

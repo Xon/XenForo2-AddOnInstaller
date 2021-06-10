@@ -52,6 +52,6 @@ class ftp extends AbstractDeployment
     protected function _stop()
     {
         $this->ftp = null;
-        $this->installerRepository()->InvalidateOpCache();
+        \XF\Util\Php::resetOpcache();
     }
 }

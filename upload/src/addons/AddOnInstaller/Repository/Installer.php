@@ -28,15 +28,4 @@ class Installer extends Repository
         }
         return $methods;
     }
-
-    /**
-     * Reset the entire opcache
-     */
-    public function InvalidateOpCache()
-    {
-        if (function_exists('opcache_reset'))
-        {
-            opcache_reset();
-        }
-    }
 }
