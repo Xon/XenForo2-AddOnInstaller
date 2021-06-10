@@ -2,6 +2,9 @@
     "XF-AddOn-DataManager_AddOnInstaller-XF-AddOn-DataManager.json": {
         "hash": "0f67f157892fa23f65e55fc88479035d"
     },
+    "XF-Admin-Controller-AddOn_AddOnInstaller-XF-Admin-Controller-AddOn.json": {
+        "hash": "645a48af771f3af2d00586bfd2c02722"
+    },
     "XF-Behavior-DevOutputWritable_AddOnInstaller-XF-Behavior-DevOutputWritable.json": {
         "hash": "2dd52d87061f30fbcc3e0bc0959bd2e1"
     },
@@ -13,5 +16,8 @@
     },
     "XF-FsMounts_AddOnInstaller-XF-FsMounts.json": {
         "hash": "c00e26274785b5ca20940c02450b9042"
+    },
+    "XF-Repository-AddOn_AddOnInstaller-XF-Repository-AddOn.json": {
+        "hash": "9878c93a8e245920bf91e35b3962d315"
     }
 }
